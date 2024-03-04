@@ -36,15 +36,8 @@ rental_time = int(input("Please enter the number of days you want to hire a car 
 time.sleep(0.1)
 clear_screen()
 print("Please wait while we calculate your holiday costs") # telling the user what the programme is doing 
-time.sleep(0.7)
-clear_screen()
-print("Please wait while we calculate your holiday costs.") # telling the user what the programme is doing 
-time.sleep(0.7)
-clear_screen()
-print("Please wait while we calculate your holiday costs..")
-time.sleep(0.7)
-clear_screen()
-print("Please wait while we calculate your holiday costs...")
+time.sleep(2)
+
 
 hotel_cost = num_nights(hotel_nights) # call the function to calculate hotel cost  
 
